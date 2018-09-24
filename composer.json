@@ -1,0 +1,22 @@
+{
+    "name": "safe/block-chain-php-sdk",
+    "description": "PHP Safe BlockChain PHP SDK",
+    "homepage": "https://github.com/varyandeveloper/safe-block-chain-php-sdkcd ../",
+    "type": "package",
+    "require": {
+        "guzzle/http": "^3.9"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Varazdat Stepanyan",
+            "email": "developervaryan@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Safe\\BlockChain\\":"./src"
+        }
+    },
+    "minimum-stability": "dev"
+}
